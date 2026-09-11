@@ -6,7 +6,7 @@ Major League Hacking empowers students through hackathons, developer programs, a
 
 ## 📂 Repository Structure
 
-This workspace is organized by event and project. 
+This workspace is organized by event and project.  For example:
 
 *   **`GHW -DATA-WEEK(Sep)/`**
     *   **[`sensor-lab`](./GHW%20-DATA-WEEK(Sep)/sensor-lab/):** A fast, lightweight API and dashboard for time-series sensor data. Built using FastAPI and Tiger Data, this project was developed during Data Week.
