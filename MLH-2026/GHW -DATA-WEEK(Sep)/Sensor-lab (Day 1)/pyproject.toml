@@ -1,0 +1,18 @@
+[project]
+name = "sensor-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "capabl3", email = "iakah2313@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "psycopg[binary]>=3.3.5",
+    "python-dotenv>=1.2.3",
+    "timescaledb[fastapi]>=0.2.1",
+]
+
+[project.scripts]
+sensor-lab = "sensor_lab:main"
+
